@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* click button styles */
+#clickBtn{
+    color: black;
+    background-color: #f0f0f0;
+    width: 75px;
+    height: 35px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 5px;
+    outline: none;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
+#clickBtn:hover{
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+
+/*styles for input fields*/
+input{
+    width: 70%;
+    height: 35px;
+    font-size: 14px;
+    padding: 6px 5px;
+    margin: 20px;
+}
+#hoverBox {
+    width: 150px;
+    height: 50px;
+    background: #eee;
+    margin: 10px 10px;
+    padding: 10px;
+    transition: background 0.3s;
+  }
+  /*secret buttons*/
+  .secret{
+    color: black;
+    background-color: #f0f0f0;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 5px;
+    outline: none;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
+  /*tab content*/
+  .tab-content {
+    display: none;
+    padding: 10px;
+    background: #f0f0f0;
+    margin-top: 10px;
+  }
+  
+  .tab-btn{
+    color: black;
+    background-color: #f0f0f0;
+    width: 75px;
+    height: 35px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 5px;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s ease;
+}
+.tab-btn:hover{
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+
+
+/*slideshow css*/
+  #slideshow img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s;
+  }
+  
+  #slideshow img:hover {
+    transform: scale(1.05);
+  }
+  
+  /*sign up form*/
+  #signupForm{
+    margin: 10px 20px;
+    border: 2px solid blueviolet;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  /*sign up submit form*/
+.submit {
+    margin: 20px 20px;
+    width: 75%;
+    height: 35px;
+    color: black;
+    background-color: #eee;
+    border: 1px solid rgb(105, 0, 204);
+    padding: 5px 25%;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+.submit:hover {
+    color: #000000;
+    background-color: rgb(20, 238, 0);
+    border-radius: 12px;
+    box-shadow: inset;
+
+  }

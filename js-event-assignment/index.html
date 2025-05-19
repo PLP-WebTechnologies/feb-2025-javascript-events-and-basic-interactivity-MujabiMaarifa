@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <h1>🎉 Welcome to My Interactive Bundle of Joy Demo<hr></h1>
+      
+        <!-- Event Handling -->
+        <button id="clickBtn">Click Me</button>
+        <div id="hoverBox">Hover Over Me</div>
+
+        <!-- Event Handling key press-->
+        <input id="keyInput" placeholder="Input something..." />
+      
+        <!-- Secret Action -->
+        <button id="secretBtn" class="secret">Try Double Click</button>
+      
+        <!-- Interactive Elements -->
+        <button id="colorChanger" class="secret">Change Color</button>
+
+        <!--slide show content-->
+        <div id="slideshow">
+          <img id="slideImg" src="pic.jpeg" alt="Slideshow" />
+          <img id="slideImg" src="pic2.jpeg" alt="Slideshow" />
+          <img id="slideImg" src="harbour.webp" alt="Slideshow" />
+        </div>
+
+        <!--display tabs-->
+        <div class="tabs">
+          <button class="tab-btn" data-tab="1">Tab 1</button>
+          <button class="tab-btn" data-tab="2">Tab 2</button>
+          <div id="tab1" class="tab-content">Content 1</div>
+          <div id="tab2" class="tab-content">Content 2</div>
+        </div>
+      
+        <!-- Form Validation -->
+        <form id="signupForm">
+          <input type="text" id="name" placeholder="Name" required>
+          <br>
+          <input type="email" id="email" placeholder="Email" required />
+          <br>
+          <input type="password" id="password" placeholder="Password" required />
+          <br>
+          <span id="feedback"></span>
+          <br>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      
+    <script src="script.js"></script>
+</body>
+</html>
